@@ -1,0 +1,36 @@
+# build outputs
+build/
+obj_dir/
+*.o
+*.elf
+*.bin
+*.hex
+*.vcd
+*.fst
+*.wlf
+
+# simulator/tool junk
+work/
+transcript
+*.log
+xsim.dir/
+.Xil/
+*.jou
+
+# editors / OS
+.vscode/
+*.swp
+
+# cocotb / Icarus outputs
+sim_build/
+results.xml
+*.vcd
+*.fst
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Windows download markers
+*:Zone.Identifier
